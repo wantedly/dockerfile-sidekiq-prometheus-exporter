@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    connection_pool (2.2.2)
+    rack (2.0.6)
+    rack-protection (2.0.4)
+      rack
+    redis (4.0.3)
+    redis-namespace (1.6.0)
+      redis (>= 3.0.4)
+    sidekiq (5.2.3)
+      connection_pool (~> 2.2, >= 2.2.2)
+      rack-protection (>= 1.5.0)
+      redis (>= 3.3.5, < 5)
+    sidekiq-prometheus-exporter (0.1.6)
+      sidekiq (>= 3.3.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  redis-namespace
+  sidekiq-prometheus-exporter
+
+RUBY VERSION
+   ruby 2.5.3p105
+
+BUNDLED WITH
+   1.17.1
