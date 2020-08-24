@@ -6,7 +6,7 @@ GEM
     rack-protection (2.0.8.1)
       rack
     redis (4.2.1)
-    redis-namespace (1.7.0)
+    redis-namespace (1.8.0)
       redis (>= 3.0.4)
     sidekiq (6.0.7)
       connection_pool (>= 2.2.2)
