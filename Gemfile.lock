@@ -10,7 +10,7 @@ GEM
       connection_pool (>= 2.2.2)
       rack (~> 2.0)
       redis (>= 4.2.0)
-    sidekiq-prometheus-exporter (0.1.14)
+    sidekiq-prometheus-exporter (0.1.15)
       sidekiq (>= 3.3.1)
 
 PLATFORMS
